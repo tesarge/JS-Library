@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>WebLib Project</title>
+</head>
+<body>
+    <header>
+        <h1>WebLib Project</h1>
+        
+    </header>
+    <div class="add-book">
+
+            <form id="form">
+                <label for="input-title">Book Title</label><br>
+                <input type="text" id="input-title" required><br>
+                <label for="input-author">Author (first & last)</label><br>
+                <input type="text" id="input-author" required><br>
+                <label for="input-page-count"># of pages</label><br>
+                <input type="num" id="input-pages" required><br>
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" id="reset">
+            </form>
+
+    </div>
+    <div id="bookshelf">
+
+    </div>
+</body>
+<script src="library.js"></script>
+</html>
